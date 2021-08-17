@@ -1,0 +1,72 @@
+@media (min-width: 64em) {
+    
+}
+
+@media (max-width: 63.9375em) {
+    .btn {
+        padding: 15px 16px;
+    }
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+}
+
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .contact-form .form-control {
+        padding: 15px;
+    }
+    #footer .social-list i {
+        font-size: 32px;
+        margin: 0 8px;
+    }
+    .contact-info {
+        line-height: 2;
+    }
+}
+
+@media (max-width: 46.1875em) {
+    .s-full-width {
+        width: 100% !important;
+        text-align: center;
+    }
+    .s-col-1 {
+        width: 100% !important;
+    }
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 48px;  /* cho thụt vào cho giống quan hệ con - cha  
+                            và cho to ra để ngón tay ấn vào được*/
+    }
+    #header .mobile-menu-btn {
+        display: block;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #content .member-img {
+        width: 60%;
+    }
+    .contact-form {
+        margin-top: 16px;
+    }
+    /* tạo cảm giác ấn được */
+}
